@@ -1,3 +1,17 @@
+/*
+ * Daniel Pulido-Alaniz
+ * 7/3/2025
+ * Card class
+ * -----------
+ * Represents a playing card with a suit, name, value, and picture.
+ * Includes:
+ *  - Default and parameterized constructors
+ *  - Accessors (getters) and mutators (setters) for all fields
+ *  - toString() method for readable output
+ *  - equals() method for comparing cards
+ * 
+ * This class was added to support the card game logic and make the code work.
+ */
 public class Card {
     private String suit;
     private String name;
@@ -57,7 +71,7 @@ public class Card {
     // toString method
     @Override
     public String toString() {
-        return name + " of " + suit + " (Value: " + value + ", Picture: " + picture + ")";
+        return name + " of " + suit + "s (Value: " + value + ", Picture: " + picture + ")";
     }
 
     // Overriding equals method to compare two Card objects
